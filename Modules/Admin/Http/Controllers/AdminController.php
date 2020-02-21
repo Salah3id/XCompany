@@ -17,6 +17,11 @@ class AdminController extends Controller
         return view('admin::index');
     }
 
+    public function login()
+    {
+        return view('admin::auth.login');
+    }
+
     /**
      * Show the form for creating a new resource.
      * @return Response
